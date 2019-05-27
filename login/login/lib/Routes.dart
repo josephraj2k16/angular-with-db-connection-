@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:dribbbledanimation/Screens/Login/index.dart';
-//import 'package:dribbbledanimation/Screens/Home/index.dart';
+import 'package:MediAssist/Screens/Login/index.dart';
+import 'package:MediAssist/Screens/Home/index.dart';
+import './stepper.dart';
 import './main1.dart';
 
 class Routes {
@@ -19,7 +20,7 @@ class Routes {
 
           case '/home':
             return new MyCustomRoute(
-              builder: (_) => new MyApp(),
+              builder: (_) => new MyApp(),//myApp for prescriptions(main1.dart) page.myHome() points to stepper.dart file.
               settings: settings,
             );
         }

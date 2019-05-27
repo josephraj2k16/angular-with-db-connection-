@@ -1,7 +1,10 @@
-name: dribbbledanimation
+name: MediAssist
 description: A new Flutter project.
 
 dependencies:
+  hidden_drawer_menu:
+    git:
+      url: git://github.com/RafaelBarbosatec/hidden_drawer_menu.git
   flutter:
     sdk: flutter
 
@@ -30,6 +33,7 @@ flutter:
   assets:
    
   - assets/login.jpg
+  - assets/backimage.jpg
   - assets/home.jpeg
   - assets/tick.png
   - assets/avatars/avatar-1.jpg

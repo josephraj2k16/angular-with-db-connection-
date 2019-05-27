@@ -46,6 +46,15 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  hidden_drawer_menu:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "6166e6f8c959641b63d5cec4463b604817b1feb2"
+      url: "git://github.com/RafaelBarbosatec/hidden_drawer_menu.git"
+    source: git
+    version: "1.0.1"
   intl:
     dependency: "direct main"
     description:

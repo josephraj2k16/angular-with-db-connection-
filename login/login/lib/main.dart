@@ -1,4 +1,4 @@
-import 'package:dribbbledanimation/Routes.dart';
+import 'package:MediAssist/Routes.dart';
 
 void main() {
   new Routes();
